@@ -1,0 +1,18 @@
+{
+  "name": "cypresstests",
+  "version": "1.0.0",
+  "description": "This project is created to perform automating testing using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhimanyu Koul",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.26.5",
+    "allure-commandline": "^2.17.2",
+    "browserstack-cypress-cli": "^1.14.1",
+    "cypress": "^9.4.1",
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}

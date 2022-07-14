@@ -1,0 +1,65 @@
+{
+    "auth": {
+        "username": "abhimanyukoul_A7Rf8i",
+        "access_key": "Y6A8NzQvibyF2kjUPpgW"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+        {
+            "browser": "edge",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+        {
+            "browser": "chrome",
+            "os": "OS X Mojave",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+        {
+            "browser": "edge",
+            "os": "OS X Mojave",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        }
+    ],
+    "run_settings": {
+        "downloads": ["./cypress/allure-reports"],
+        "cypress_config_file": "./cypress.json",
+        "cypress_version": "9.5.4",
+        "project_name": "cypress-allure-project",
+        "build_name": "cypress-allure-build",
+        "exclude": ["some-folder/test.js", "static/*.pdf"],
+        "parallels": "10",
+        "npm_dependencies": {
+            "@shelex/cypress-allure-plugin": "^2.26.5",
+            "allure-commandline": "^2.17.2",
+            "browserstack-cypress-cli": "^1.14.1",
+            "cypress": "^9.4.1",
+            "mocha-allure-reporter": "^1.4.0"
+        },
+        "package_config_options": {},
+        "headless": true
+    },
+    "connection_settings": {
+        "local": false,
+        "local_identifier": null,
+        "local_mode": null,
+        "local_config_file": null
+    },
+    "disable_usage_reporting": false
+}
