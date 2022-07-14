@@ -44,7 +44,7 @@
         "project_name": "cypress-allure-project",
         "build_name": "cypress-allure-build",
         "exclude": ["some-folder/test.js", "static/*.pdf"],
-        "parallels": "10",
+        "parallels": "25",
         "npm_dependencies": {
             "@shelex/cypress-allure-plugin": "^2.26.5",
             "allure-commandline": "^2.17.2",
